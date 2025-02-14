@@ -12,7 +12,7 @@ class TranDau {
   final String van_dong_vien3;
   final String van_dong_vien4;
   final int loai_tran_dau; //danh doi hay don 
-  final int trang_thai;//1=Live; 0=END; 2=Waiting...
+  final int status;//1=Live; 0=END; 2=Waiting...
   final String ten_giai_dau;
 
   TranDau(
@@ -26,6 +26,6 @@ class TranDau {
       required this.van_dong_vien3,
       this.van_dong_vien4='',
       required this.loai_tran_dau,
-      required this.trang_thai,
+      required this.status,
       required this.ten_giai_dau});
 }
